@@ -15,9 +15,11 @@ function App() {
     })
 
     return (
-        <div>
+        <div className='main'>
             <Navbar />
-            {cards}
+            <div className='card-list'>
+                {cards}
+            </div>
         </div>
     )
 }
